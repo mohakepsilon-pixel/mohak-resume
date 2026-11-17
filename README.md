@@ -24,9 +24,9 @@ Then open `http://localhost:8000`.
 
 ## CSS concepts
 
-The design applies element, class, and ID selectors; a consistent neutral palette and blue accent; readable system typography; deliberate spacing and alignment; Flexbox and Grid; sticky positioning; responsive media queries; hover and keyboard focus states; and reduced-motion and print styles.
+The design applies element, class, and ID selectors; a consistent matte black, graphite, and silver palette; readable system typography; deliberate spacing and alignment; Flexbox and Grid; sticky positioning; responsive media queries; hover and keyboard focus states; and reduced-motion and print styles.
 
-The restrained visual style uses clear hierarchy, generous whitespace, subtle surfaces, and one featured project. No build step, framework, backend, external font download, or package installation is required.
+The restrained visual style uses matte black `#08090a`, graphite `#101214`, silver `#eeeef0` and `#d8dbe0`, restrained gradients, clear hierarchy, generous whitespace, and one featured project. No build step, framework, backend, external font download, or package installation is required.
 
 ## Accessibility and privacy
 
