@@ -1,33 +1,39 @@
-# Mohak Garg — Personal Résumé
+# Mohak Garg — Personal résumé
 
-A simple, responsive personal résumé website for the IIMBx Website Development project. It introduces Mohak Garg as a student pursuing a BBA in Digital Business and Entrepreneurship at IIM Bangalore, and presents his education, current learning, foundational tools, and this résumé website as a project.
+A responsive HTML and CSS résumé for the IIMBx Website Development assignment.
 
-The profile describes a student learning HTML, CSS, and GitHub. It makes no claims about employment, certifications, achievements, or professional experience.
+Live website: https://mohakepsilon-pixel.github.io/mohak-resume/
 
-## View locally
+## What the page contains
 
-Open `index.html` in a web browser, or serve this directory with a static server:
+- A name, student tagline, school photograph, and short profile summary.
+- Current BBA studies at IIM Bangalore and verified Class XII and Class X education.
+- HTML, CSS, and GitHub skills described as developing skills.
+- The 99 Percentiler web project and the résumé coursework project, with descriptions, tools, and working links.
+- A GitHub contact link.
 
-```sh
-python -m http.server 8000
-```
+The site does not claim employment, certifications, grades, user counts, or sole authorship of the larger project. Private educational documents and learner identifiers are excluded from the public source.
 
-Then open `http://localhost:8000`.
+## Files and preview
 
-## Files
+The browser-ready files are `index.html`, `styles.css`, `assets/favicon.svg`, and `assets/mohak-portrait-v2.jpg`. There is no build step, package installation, framework, or JavaScript requirement.
 
-- `index.html` — semantic sections, headings, navigation, and profile content.
-- `styles.css` — all visual styling, responsive layouts, accessibility states, and print layout.
-- `script.js` — mobile navigation and résumé print action.
-- `assets/favicon.svg` — small locally hosted favicon.
-- `.nojekyll` — serves the static files directly with GitHub Pages.
+Open `index.html` in your browser, or run `python -m http.server 8000` from this checkout and visit `http://localhost:8000/`. GitHub Pages publishes the repository root from the `main` branch.
 
-## CSS concepts
+## How the code works
 
-The design applies element, class, and ID selectors; a consistent matte black, graphite, and silver palette; readable system typography; deliberate spacing and alignment; Flexbox and Grid; sticky positioning; responsive media queries; hover and keyboard focus states; and reduced-motion and print styles.
+1. `header`, `nav`, `main`, `section`, `article`, `figure`, and `footer` give the content a semantic structure.
+2. Element selectors set type and spacing defaults. Classes such as `.container`, `.resume-section`, and `.project-entry` style reusable layouts. IDs identify the navigation destinations and the contact section.
+3. Grid aligns the profile and résumé sections. Flexbox aligns the navigation, dates, and action links. Margin, padding, borders, width, and line height control the box model and visual hierarchy.
+4. A media query at 760px adapts the profile, navigation, and section columns for smaller screens. Navigation uses ordinary anchor links and works without JavaScript.
+5. Hover and keyboard-focus states make links clear. A skip link, meaningful photo alt text, motion-free navigation, and a separate print stylesheet support different ways of using the page.
 
-The restrained visual style uses matte black `#08090a`, graphite `#101214`, silver `#eeeef0` and `#d8dbe0`, restrained gradients, clear hierarchy, generous whitespace, and one featured project. No build step, framework, backend, external font download, or package installation is required.
+The matte black (`#101112`), graphite (`#191c20`), and silver (`#eeeeef`) palette uses a readable Arial/Helvetica font stack. The source is formatted and commented for review and learning.
 
-## Accessibility and privacy
+## Course alignment
 
-The page includes semantic landmarks, a skip link, accessible navigation labels, visible focus states, and a responsive mobile menu. Public contact is through GitHub. Student roll numbers, private email correspondence, credentials, and assessment documents are excluded from this public repository.
+The site was reviewed against the course's résumé lesson (3.22), HTML lessons, CSS lessons, Flexbox/Grid examples, and responsive-design lessons. The school photograph was prepared from an existing photo by removing its printed label using the image-editing tool.
+
+Reference code supplied through the course: https://github.com/shenoy-lab/DBE_Website_Development_Reference_Code
+
+The assignment PDF is a separate private deliverable containing the live link, repository link, and design explanation. The student should review the résumé facts and understand the implementation before submission.
